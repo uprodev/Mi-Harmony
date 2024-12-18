@@ -37,6 +37,9 @@
     font-size: 40px;
     line-height: 1.2;
   }
+  .text-img .img-6x img{
+    height: 160px;
+  }
 }
 
 @media (max-width:991px) {
@@ -67,6 +70,9 @@
   .pre-footer .content {
     width: 65%;
   }
+  .text-img .img-6x img{
+    height: 190px;
+  }
 }
 
 @media (max-width:767px) {
@@ -86,6 +92,9 @@
     flex-direction: column;
     align-items: center;
     grid-gap: 20px;
+  }
+  .text-img .img-6x img{
+    height: 150px;
   }
 }
 
@@ -108,5 +117,8 @@
         display: none;
       }
     }
+  }
+  .text-img .img-6x img{
+    height: 30vw;
   }
 }
