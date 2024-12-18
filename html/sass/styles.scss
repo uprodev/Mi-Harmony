@@ -239,6 +239,7 @@ header{
   align-items: center;
   width: fit-content;
   color: #fff;
+  cursor: pointer;
   img{
     margin-left: 15px;
   }
@@ -407,6 +408,44 @@ footer{
         }
       }
     }
+  }
+}
+
+.form-submit{
+  width: 255px;
+  label{
+    display: none;
+  }
+  input{
+    box-sizing: border-box;
+    border: 1px solid rgb(153, 68, 107);
+    border-radius: 32px;
+    height: 44px;
+    line-height: 42px;
+    text-align: center;
+    padding: 0 15px;
+    color: rgb(153, 68, 107);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    background: transparent;
+    width: 100%;
+  }
+  input::-webkit-input-placeholder {
+    color: rgb(153, 68, 107); }
+
+  input::-moz-placeholder {
+    color: rgb(153, 68, 107); }
+
+  input:-ms-input-placeholder {
+    color: rgb(153, 68, 107); }
+
+  input:-moz-placeholder {
+    color: rgb(153, 68, 107); }
+  button{
+    border: none;
+    width: 100%;
   }
 }
 /*------------------------END-LADING-PAGE------------------------*/

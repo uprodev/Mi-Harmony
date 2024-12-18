@@ -228,7 +228,8 @@ header {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: #fff; }
+  color: #fff;
+  cursor: pointer; }
   .btn-bg img {
     margin-left: 15px; }
   .btn-bg:hover {
@@ -391,6 +392,38 @@ footer {
       padding: 0; }
       footer .footer-menu ul li:last-child:after {
         display: none; }
+
+.form-submit {
+  width: 255px; }
+  .form-submit label {
+    display: none; }
+  .form-submit input {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 1px solid #99446b;
+    border-radius: 32px;
+    height: 44px;
+    line-height: 42px;
+    text-align: center;
+    padding: 0 15px;
+    color: #99446b;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    background: transparent;
+    width: 100%; }
+  .form-submit input::-webkit-input-placeholder {
+    color: #99446b; }
+  .form-submit input::-moz-placeholder {
+    color: #99446b; }
+  .form-submit input:-ms-input-placeholder {
+    color: #99446b; }
+  .form-submit input:-moz-placeholder {
+    color: #99446b; }
+  .form-submit button {
+    border: none;
+    width: 100%; }
 
 /*------------------------END-LADING-PAGE------------------------*/
 
