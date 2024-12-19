@@ -20,7 +20,7 @@ $logo = get_field('logo', 'options');
 ?>
 
 <body <?php body_class() ?>>
-<header>
+<header<?= is_page(63) ? ' class="bg-white"' : '' ?>>
     <div class="top-line">
         <div class="content-width">
             <div class="logo-wrap">
