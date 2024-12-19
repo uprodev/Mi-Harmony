@@ -11,7 +11,7 @@ $image = get_sub_field('image');
     <div class="content-width">
         <div class="text">
             <?php if($title):?>
-                <h1><?= $title;?>></h1>
+                <h1><?= $title;?></h1>
             <?php endif;?>
             <div class="wrap">
                 <?= $text;?>
