@@ -445,7 +445,7 @@ footer {
     position: relative;
     top: 15px; }
 
-.text-img .no-border {
+.text-img .no-border img {
   border-radius: 0;
   width: auto;
   -webkit-box-pack: end;
