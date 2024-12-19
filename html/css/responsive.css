@@ -85,7 +85,11 @@
     grid-gap: 20px; }
 
   .text-img .img-6x img {
-    height: 150px; } }
+    height: 150px; }
+
+  .page-banner figure img {
+    width: 100%;
+    height: auto; } }
 @media (max-width: 575px) {
   .content-width {
     width: 100%;
