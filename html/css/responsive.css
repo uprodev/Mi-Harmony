@@ -105,6 +105,16 @@
         display: none; }
 
   .text-img .img-6x img {
-    height: 30vw; } }
+    height: 30vw; }
+
+  .thank h1 {
+    font-size: 40px;
+    line-height: 1.2; }
+
+  .thank {
+    padding: 75px 0 75px; }
+
+  .thank .bg {
+    top: 100px; } }
 
 /*# sourceMappingURL=responsive.css.map */

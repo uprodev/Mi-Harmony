@@ -473,3 +473,53 @@ footer{
   height: auto;
 }
 /*------------------------END-LADING-PAGE------------------------*/
+/*------------------------THANK-PAGE------------------------*/
+.thank{
+  padding: 88px 0 100px;
+  position: relative;
+  .bg{
+    top: 121px;
+    background: rgba(196, 207, 198, 1);
+  }
+  h1{
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: -1.6px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .content{
+    margin: auto;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    width: 465px;
+    padding: 83px 57px;
+    max-width: 100%;
+  }
+  p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  p:last-child{
+    margin-bottom: 0;
+  }
+  h6{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 23px;
+    color: rgb(153, 68, 107);
+  }
+}
+
+.bg-white{
+  background: #fff;
+}
+/*-----------------------END-THANK-PAGE------------------------*/
