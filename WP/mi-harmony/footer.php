@@ -1,16 +1,24 @@
+<?php
+
+$logo = get_field('logo', 'options');
+
+?>
+
 </main>
 <footer>
     <div class="content-width">
         <nav class="footer-menu">
-            <ul>
-                <li><a href="#">Regulamin</a></li>
-                <li><a href="#">Polityka prywatnosci</a></li>
-                <li><a href="#">Ciasteczka</a></li>
-            </ul>
+            <?php wp_nav_menu([
+                'theme_location' => 'footer-menu',
+                'container' => false,
+                'menu_class' => '',
+            ]);?>
         </nav>
         <div class="logo-wrap">
-            <a href="#">
-                <img src="img/logo.svg" alt="">
+            <a href="<?= get_home_url();?>">
+                <?php if($logo):?>
+                    <img src="<?= $logo['url'];?>" alt="<?= $logo['alt'];?>" />
+                <?php endif;?>
             </a>
         </div>
     </div>
