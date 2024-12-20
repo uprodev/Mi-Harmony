@@ -499,6 +499,11 @@ footer {
 .bg-white {
   background: #fff; }
 
-/*-----------------------END-THANK-PAGE------------------------*/
+.pre-footer {
+  padding-bottom: 150px; }
 
+footer {
+  padding-bottom: 2px; }
+
+/*-----------------------END-THANK-PAGE------------------------*/
 /*# sourceMappingURL=styles.css.map */
