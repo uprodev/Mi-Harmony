@@ -14,7 +14,7 @@ $image = get_sub_field('image');
         </div>
     <?php endif;?>
     <div class="content-width">
-        <figure class="content">
+        <div class="content">
             <?php if($title):?>
                 <h2><?= $title;?></h2>
             <?php endif;?>
