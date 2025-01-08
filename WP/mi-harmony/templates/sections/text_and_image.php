@@ -18,10 +18,27 @@ $items = get_sub_field('items');
                 $style = $item['image_style'];
                 $img = $item['image'];
                 $images = $item['6_images'];
+                $title = $item['title'];
             ?>
                 <div class="item<?= $pos?' item-revers':'';?>"<?= $bg?' style="background:'.$bg.'"':'';?>>
                     <div class="text">
+                        <?= $title?'<h3>'.$title.'</h3>':'';?>
                         <?= $item['text'];?>
+                        <?php if($style == '1 Image'):?>
+                            <figure>
+                                <img src="<?= $img['url'];?>" alt="<?= $img['alt'];?>">
+                            </figure>
+                        <?php elseif($style == 'No Border'):?>
+                            <figure class="no-border">
+                                <img src="<?= $img['url'];?>" alt="<?= $img['alt'];?>">
+                            </figure>
+                        <?php elseif($style == '6 Images'):?>
+                            <figure class="img-6x">
+                                <?php foreach( $images as $im ): ?>
+                                    <img src="<?= $im['url'];?>" alt="<?= $im['alt'];?>">
+                                <?php endforeach;?>
+                            </figure>
+                        <?php endif;?>
                     </div>
                     <?php if($style == '1 Image'):?>
                         <figure>
