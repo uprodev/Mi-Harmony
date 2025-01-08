@@ -4,6 +4,7 @@ $title = get_sub_field('title');
 $subtitle = get_sub_field('subtitle');
 $form = get_sub_field('form');
 $image = get_sub_field('image');
+$mob_image = get_sub_field('mob_image');
 
 ?>
 
@@ -18,9 +19,9 @@ $image = get_sub_field('image');
             <?php if($title):?>
                 <h2><?= $title;?></h2>
             <?php endif;?>
-            <?php if($image):?>
+            <?php if($mob_image):?>
                 <figure>
-                    <img src="<?= $image['url'];?>" alt="<?= $image['alt'];?>">
+                    <img src="<?= $mob_image['url'];?>" alt="<?= $mob_image['alt'];?>">
                 </figure>
             <?php endif;?>
             <?php if($subtitle):?>
