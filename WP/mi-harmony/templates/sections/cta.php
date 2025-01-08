@@ -14,9 +14,14 @@ $image = get_sub_field('image');
         </div>
     <?php endif;?>
     <div class="content-width">
-        <div class="content">
+        <figure class="content">
             <?php if($title):?>
                 <h2><?= $title;?></h2>
+            <?php endif;?>
+            <?php if($image):?>
+                <figure>
+                    <img src="<?= $image['url'];?>" alt="<?= $image['alt'];?>">
+                </figure>
             <?php endif;?>
             <?php if($subtitle):?>
                 <h6><?= $subtitle;?></h6>
