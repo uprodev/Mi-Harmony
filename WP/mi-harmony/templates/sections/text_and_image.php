@@ -18,11 +18,11 @@ $items = get_sub_field('items');
                 $style = $item['image_style'];
                 $img = $item['image'];
                 $images = $item['6_images'];
-                $titles = $item['title'];
+                $titles = $item['title_item'];
             ?>
                 <div class="item<?= $pos?' item-revers':'';?>"<?= $bg?' style="background:'.$bg.'"':'';?>>
                     <div class="text">
-                        <?= $titles?'<h3>'.$titles.' 1</h3>':'';?>
+                        <?= $titles?'<h3>'.$titles.'</h3>':'';?>
 
                         <?php if($style == '1 Image'):?>
                             <figure>
