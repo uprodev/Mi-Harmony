@@ -23,7 +23,7 @@ $items = get_sub_field('items');
                 <div class="item<?= $pos?' item-revers':'';?>"<?= $bg?' style="background:'.$bg.'"':'';?>>
                     <div class="text">
                         <?= $title?'<h3>'.$title.'</h3>':'';?>
-                        <?= $item['text'];?>
+
                         <?php if($style == '1 Image'):?>
                             <figure>
                                 <img src="<?= $img['url'];?>" alt="<?= $img['alt'];?>">
@@ -39,6 +39,7 @@ $items = get_sub_field('items');
                                 <?php endforeach;?>
                             </figure>
                         <?php endif;?>
+                        <?= $item['text'];?>
                     </div>
                     <?php if($style == '1 Image'):?>
                         <figure>
