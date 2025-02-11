@@ -171,6 +171,9 @@
   .page-banner{
     padding-bottom: 60px;
   }
+  .text-img .img-2x img{
+    height: 50vw;
+  }
 }
 
 /*# sourceMappingURL=responsive.css.map */

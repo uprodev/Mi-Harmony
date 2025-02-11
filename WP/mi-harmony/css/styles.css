@@ -516,4 +516,20 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+.text-img .img-2x{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.text-img .img-2x img{
+  width: 80%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.text-img .img-2x img:nth-child(2){
+  margin-right: 20%;
+  margin-top: -40px;
+}
 /*# sourceMappingURL=styles.css.map */
