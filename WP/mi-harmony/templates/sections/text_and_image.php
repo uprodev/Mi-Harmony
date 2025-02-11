@@ -40,6 +40,11 @@ $items = get_sub_field('items');
                                     <img src="<?= $im['url'];?>" alt="<?= $im['alt'];?>">
                                 <?php endforeach;?>
                             </figure>
+                        <?php elseif($style == '2 Images'):?>
+                            <figure class="img-2x">
+                                <img src="<?= $img1['url'];?>" alt="<?= $img1['alt'];?>">
+                                <img src="<?= $img2['url'];?>" alt="<?= $img2['alt'];?>">
+                            </figure>
                         <?php endif;?>
                         <?= $item['text'];?>
                     </div>
