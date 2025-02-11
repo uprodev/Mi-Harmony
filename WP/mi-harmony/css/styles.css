@@ -498,7 +498,22 @@ footer {
 
 .bg-white {
   background: #fff; }
-
+.pre-footer{
+	padding-bottom: 150px;
+}
+.page-banner .text figure{
+  display: none;
+}
 /*-----------------------END-THANK-PAGE------------------------*/
+.pre-footer .bg .mob{
+  display: none;
+}
 
+.wpcf7 form .wpcf7-response-output{
+  margin: auto;
+}
+.top-line .logo-wrap {
+  display: flex;
+  justify-content: center;
+}
 /*# sourceMappingURL=styles.css.map */

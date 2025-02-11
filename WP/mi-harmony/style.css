@@ -2,3 +2,55 @@
 Theme Name: mi-harmony
 Description: Theme WP for Mi-Harmony
 */
+
+.top-line .logo-wrap img{
+	width: 116px;
+	height: auto;
+}
+
+.page-banner .content-width{
+	align-items: center;
+}
+.page-banner .text{
+	padding:0;
+}
+.page-banner{
+	padding-top: 60px;
+}
+
+.pre-footer .content figure{
+	display: none;
+}
+.text-img .text figure{
+	display: none;
+}
+
+@media (min-width: 2100px){
+	.pre-footer{
+		padding: 250px 0;
+	}
+}
+
+@media (max-width: 575px){
+	.top-line .logo-wrap{
+		display: flex;
+		justify-content: center;
+	}
+	.page-banner {
+    padding-top: 40px;
+}
+	.pre-footer .content figure{
+		display: none;
+		margin-bottom: 20px;
+}
+	.pre-footer .content figure img{
+		width: 100%;
+	}
+.text-img .text figure{
+	display: flex!important;
+		margin-bottom: 20px;
+}
+	.text-img figure{
+		display: none!important;
+	}
+}
