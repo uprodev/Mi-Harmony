@@ -12,6 +12,9 @@ $mob_image = get_sub_field('mob_image');
     <?php if($image):?>
         <div class="bg">
             <img src="<?= $image['url'];?>" alt="<?= $image['alt'];?>">
+            <?php if($mob_image):?>
+                <img src="<?= $mob_image['url'];?>" alt="<?= $mob_image['alt'];?>" class="mob">
+            <?php endif;?>
         </div>
     <?php endif;?>
     <div class="content-width">
@@ -19,11 +22,7 @@ $mob_image = get_sub_field('mob_image');
             <?php if($title):?>
                 <h2><?= $title;?></h2>
             <?php endif;?>
-            <?php if($mob_image):?>
-                <figure>
-                    <img src="<?= $mob_image['url'];?>" alt="<?= $mob_image['alt'];?>">
-                </figure>
-            <?php endif;?>
+
             <?php if($subtitle):?>
                 <h6><?= $subtitle;?></h6>
             <?php endif;?>

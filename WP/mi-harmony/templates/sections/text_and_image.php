@@ -17,6 +17,8 @@ $items = get_sub_field('items');
                 $bg = $item['background_colour'];
                 $style = $item['image_style'];
                 $img = $item['image'];
+                $img1 = $item['image_1'];
+                $img2 = $item['image_2'];
                 $images = $item['6_images'];
                 $titles = $item['title_item'];
             ?>
@@ -54,6 +56,11 @@ $items = get_sub_field('items');
                             <?php foreach( $images as $im ): ?>
                                 <img src="<?= $im['url'];?>" alt="<?= $im['alt'];?>">
                             <?php endforeach;?>
+                        </figure>
+                    <?php elseif($style == '2 Images'):?>
+                        <figure class="img-2x">
+                            <img src="<?= $img1['url'];?>" alt="<?= $img1['alt'];?>">
+                            <img src="<?= $img2['url'];?>" alt="<?= $img2['alt'];?>">
                         </figure>
                     <?php endif;?>
                 </div>
